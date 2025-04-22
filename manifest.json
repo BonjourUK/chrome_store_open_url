@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Chrome收藏夹查找与打开",
+    "version": "1.0",
+    "description": "根据关键字查找并打开浏览器收藏的网址",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon16.png"
+
+        }
+    },
+    "permissions": ["bookmarks", "activeTab"],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
